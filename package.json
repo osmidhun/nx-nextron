@@ -2,9 +2,14 @@
   "name": "nx-test",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "start:web": "nx serve nextron",
+    "start:nextron": "nx dev nextron"
+  },
   "private": true,
   "dependencies": {
+    "electron-serve": "^1.1.0",
+    "electron-store": "^8.1.0",
     "@nrwl/next": "15.8.9",
     "next": "13.1.1",
     "react": "18.2.0",
@@ -12,6 +17,12 @@
     "tslib": "^2.3.0"
   },
   "devDependencies": {
+    "electron": "^21.3.3",
+    "electron-builder": "^23.6.0",
+    "next": "^12.3.4",
+    "nextron": "^8.5.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "@babel/preset-react": "^7.14.5",
     "@nrwl/cypress": "15.8.9",
     "@nrwl/eslint-plugin-nx": "15.8.9",
