@@ -9,8 +9,6 @@
     "build": "nextron build",
     "postinstall": "electron-builder install-app-deps"
   },
-  "dependencies": {
-  },
-  "devDependencies": {
-  }
+  "dependencies": {},
+  "devDependencies": {}
 }
