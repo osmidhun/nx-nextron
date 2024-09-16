@@ -1,13 +1,13 @@
 // eslint-disable-next-line @typescript-eslint/no-var-requires
-const { withNx } = require('@nrwl/next/plugins/with-nx')
+const { withNx } = require('@nx/next/plugins/with-nx');
 
 /**
- * @type {import('@nrwl/next/plugins/with-nx').WithNxOptions}
+ * @type {import('@nx/next/plugins/with-nx').WithNxOptions}
  **/
-const nextConfig = {}
+const nextConfig = {};
 
 // This is working
-module.exports = nextConfig
+module.exports = nextConfig;
 
 // This is not working
 // module.exports = withNx(nextConfig);
